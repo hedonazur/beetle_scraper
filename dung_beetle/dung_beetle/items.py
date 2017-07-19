@@ -15,4 +15,6 @@ class DungBeetleItem(scrapy.Item):
     image_urls = scrapy.Field()
     images = scrapy.Field()
     nomenclatural_type = scrapy.Field()
+    licence = scrapy.Field()
+    creator = scrapy.Field()
 
